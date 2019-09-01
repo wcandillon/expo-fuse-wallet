@@ -42,12 +42,12 @@ const s = StyleSheet.create({
 		marginTop: 5,
 		alignSelf: 'flex-end',
 		backgroundColor: '#81AFE0',
-		paddingHorizontal: metrics.base,
+		paddingHorizontal: metrics.margin.base,
 		paddingVertical: 3
 	},
 	titleButton: {
 		textAlign: 'right',
 		color: 'white',
-		fontSize: metrics.font.medium
+		fontSize: metrics.font.text.t1
 	}
 })
